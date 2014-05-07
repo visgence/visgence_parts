@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  4/18/2014 9:22:29 PM
+PCBNEW-LibModule-V1  5/6/2014 9:48:33 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -8,6 +8,7 @@ EV-T220
 LOGO
 LOGOMIRROR
 PCC-SMP
+QN48
 RESARRAY
 RESARRAY-0612
 RESONATOR-SMD
@@ -29,9 +30,13 @@ TE6469028-1
 TRAN
 TRAN6
 USB-MICRO-B
+VIS_LED_0402
+VIS_SM0402
 Var_resistor
 XBEE-SMD
 XO-ASG-D-X
+XO_3.2x2.5
+microsd-molex-47571
 $EndINDEX
 $MODULE 1pin_C
 Po 0 0 0 15 531FE69D 00000000 ~~
@@ -1133,6 +1138,364 @@ Ne 0 ""
 Po -7.8 -6.75
 $EndPAD
 $EndMODULE PCC-SMP
+$MODULE QN48
+Po 0 0 0 15 5369A2F2 00000000 ~~
+Li QN48
+Sc 0
+AR /53587C4A
+Op 0 0 0
+At SMD
+T0 0 -3.8 0.762 0.762 0 0.127 N V 21 N "U1"
+T1 0 3.8 0.762 0.762 0 0.1524 N V 21 N "AGLN010V2-QNG48"
+DC -2.65 -2.65 -2.8 -2.85 0.1 21
+DS -3.05 3.05 -3.05 -2.6 0.1 21
+DS -3.05 -2.6 -2.6 -3.05 0.1 21
+DS 3.05 -3.05 -2.6 -3.05 0.1 21
+DS 3.05 -3.05 3.05 3.05 0.1 21
+DS 3.05 3.05 -3.05 3.05 0.1 21
+$PAD
+Sh "1" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "Net-(U1-Pad1)"
+Po -2.8 -2.2
+$EndPAD
+$PAD
+Sh "2" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "Net-(U1-Pad2)"
+Po -2.8 -1.8
+$EndPAD
+$PAD
+Sh "3" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 21 "Net-(U1-Pad3)"
+Po -2.8 -1.4
+$EndPAD
+$PAD
+Sh "4" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 28 "Net-(U1-Pad4)"
+Po -2.8 -1
+$EndPAD
+$PAD
+Sh "5" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "GND"
+Po -2.8 -0.6
+$EndPAD
+$PAD
+Sh "6" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po -2.8 -0.2
+$EndPAD
+$PAD
+Sh "7" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 30 "Net-(U1-Pad7)"
+Po -2.8 0.2
+$EndPAD
+$PAD
+Sh "8" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 42 "TX"
+Po -2.8 0.6
+$EndPAD
+$PAD
+Sh "9" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 31 "Net-(U1-Pad9)"
+Po -2.8 1
+$EndPAD
+$PAD
+Sh "10" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 36 "RX"
+Po -2.8 1.4
+$EndPAD
+$PAD
+Sh "11" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "Net-(U1-Pad11)"
+Po -2.8 1.8
+$EndPAD
+$PAD
+Sh "12" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "Net-(U1-Pad12)"
+Po -2.8 2.2
+$EndPAD
+$PAD
+Sh "33" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 2.8 -1
+$EndPAD
+$PAD
+Sh "34" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "GND"
+Po 2.8 -1.4
+$EndPAD
+$PAD
+Sh "35" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 43 "VCC"
+Po 2.8 -1.8
+$EndPAD
+$PAD
+Sh "36" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 25 "Net-(U1-Pad36)"
+Po 2.8 -2.2
+$EndPAD
+$PAD
+Sh "17" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 15 "Net-(U1-Pad17)"
+Po -0.6 2.8
+$EndPAD
+$PAD
+Sh "18" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "Net-(U1-Pad18)"
+Po -0.2 2.8
+$EndPAD
+$PAD
+Sh "19" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 0.2 2.8
+$EndPAD
+$PAD
+Sh "20" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "Net-(U1-Pad20)"
+Po 0.6 2.8
+$EndPAD
+$PAD
+Sh "21" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "Net-(U1-Pad21)"
+Po 1 2.8
+$EndPAD
+$PAD
+Sh "22" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 37 "TCK"
+Po 1.4 2.8
+$EndPAD
+$PAD
+Sh "23" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 38 "TDI"
+Po 1.8 2.8
+$EndPAD
+$PAD
+Sh "24" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 40 "TMS"
+Po 2.2 2.8
+$EndPAD
+$PAD
+Sh "13" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "Net-(U1-Pad13)"
+Po -2.2 2.8
+$EndPAD
+$PAD
+Sh "14" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "Net-(U1-Pad14)"
+Po -1.8 2.8
+$EndPAD
+$PAD
+Sh "15" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 13 "Net-(U1-Pad15)"
+Po -1.4 2.8
+$EndPAD
+$PAD
+Sh "16" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 14 "Net-(U1-Pad16)"
+Po -1 2.8
+$EndPAD
+$PAD
+Sh "25" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 45 "VPUMP"
+Po 2.8 2.2
+$EndPAD
+$PAD
+Sh "26" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 39 "TDO"
+Po 2.8 1.8
+$EndPAD
+$PAD
+Sh "27" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 41 "TRST"
+Po 2.8 1.4
+$EndPAD
+$PAD
+Sh "28" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 44 "VJTAG"
+Po 2.8 1
+$EndPAD
+$PAD
+Sh "29" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 20 "Net-(U1-Pad29)"
+Po 2.8 0.6
+$EndPAD
+$PAD
+Sh "30" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 22 "Net-(U1-Pad30)"
+Po 2.8 0.2
+$EndPAD
+$PAD
+Sh "31" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 23 "Net-(U1-Pad31)"
+Po 2.8 -0.2
+$EndPAD
+$PAD
+Sh "32" R 0.4 0.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 24 "Net-(U1-Pad32)"
+Po 2.8 -0.6
+$EndPAD
+$PAD
+Sh "37" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 26 "Net-(U1-Pad37)"
+Po 2.2 -2.8
+$EndPAD
+$PAD
+Sh "38" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "CLK"
+Po 1.8 -2.8
+$EndPAD
+$PAD
+Sh "39" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 27 "Net-(U1-Pad39)"
+Po 1.4 -2.8
+$EndPAD
+$PAD
+Sh "40" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 29 "Net-(U1-Pad40)"
+Po 1 -2.8
+$EndPAD
+$PAD
+Sh "41" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "LED1"
+Po 0.6 -2.8
+$EndPAD
+$PAD
+Sh "42" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "LED2"
+Po 0.2 -2.8
+$EndPAD
+$PAD
+Sh "43" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "LED3"
+Po -0.2 -2.8
+$EndPAD
+$PAD
+Sh "44" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "LED4"
+Po -0.6 -2.8
+$EndPAD
+$PAD
+Sh "45" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 32 "Q1"
+Po -1 -2.8
+$EndPAD
+$PAD
+Sh "46" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 33 "Q2"
+Po -1.4 -2.8
+$EndPAD
+$PAD
+Sh "47" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 34 "Q3"
+Po -1.8 -2.8
+$EndPAD
+$PAD
+Sh "48" R 0.2 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 35 "Q4"
+Po -2.2 -2.8
+$EndPAD
+$SHAPE3D
+Na "smd\\qfn48.wrl"
+Sc 0.14 0.14 0.17
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE QN48
 $MODULE RESARRAY
 Po 0 0 0 15 516E1FDC 00000000 ~~
 Li RESARRAY
@@ -2682,6 +3045,82 @@ Ne 0 ""
 Po -3.8 2.65
 $EndPAD
 $EndMODULE USB-MICRO-B
+$MODULE VIS_LED_0402
+Po 0 0 0 15 535C9266 00000000 ~~
+Li VIS_LED_0402
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0.00508 0.82296 0.35052 0.3048 0 0.07112 N V 21 N "SM0402"
+T1 0.00508 -0.82296 0.35052 0.3048 0 0.07112 N V 21 N "VAL**"
+DS 0.1016 0.2032 0.1016 -0.2286 0.0508 21
+DS 0.1016 -0.2286 0.2032 -0.2286 0.0508 21
+DS 0.1016 0.2286 0.1778 0.2286 0.0508 21
+DS 0.2032 -0.381 0.2032 0.381 0.0508 21
+DS -0.254 -0.381 -0.762 -0.381 0.07112 21
+DS -0.762 -0.381 -0.762 0.381 0.07112 21
+DS -0.762 0.381 -0.254 0.381 0.07112 21
+DS 0.254 -0.381 0.762 -0.381 0.07112 21
+DS 0.762 -0.381 0.762 0.381 0.07112 21
+DS 0.762 0.381 0.254 0.381 0.07112 21
+$PAD
+Sh "1" R 0.39878 0.59944 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.44958 0
+$EndPAD
+$PAD
+Sh "2" R 0.39878 0.59944 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.44958 0
+$EndPAD
+$SHAPE3D
+Na "smd\\chip_cms.wrl"
+Sc 0.05 0.05 0.05
+Of 0 0 0.002
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE VIS_LED_0402
+$MODULE VIS_SM0402
+Po 0 0 0 15 535C92BE 00000000 ~~
+Li VIS_SM0402
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 0.8636 0.35052 0.3048 0 0.07112 N V 21 N "SM0402"
+T1 0 -0.6604 0.35052 0.3048 0 0.07112 N V 21 N "VAL**"
+DS -0.254 -0.381 -0.762 -0.381 0.07112 21
+DS -0.762 -0.381 -0.762 0.381 0.07112 21
+DS -0.762 0.381 -0.254 0.381 0.07112 21
+DS 0.254 -0.381 0.762 -0.381 0.07112 21
+DS 0.762 -0.381 0.762 0.381 0.07112 21
+DS 0.762 0.381 0.254 0.381 0.07112 21
+$PAD
+Sh "1" R 0.39878 0.59944 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.44958 0
+$EndPAD
+$PAD
+Sh "2" R 0.39878 0.59944 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.44958 0
+$EndPAD
+$SHAPE3D
+Na "smd\\chip_cms.wrl"
+Sc 0.05 0.05 0.05
+Of 0 0 0.002
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE VIS_SM0402
 $MODULE Var_resistor
 Po 0 0 0 15 52488A0F 00000000 ~~
 Li Var_resistor
@@ -2956,4 +3395,172 @@ Ne 0 ""
 Po -2.54 -1.765
 $EndPAD
 $EndMODULE XO-ASG-D-X
+$MODULE XO_3.2x2.5
+Po 0 0 0 15 5369AC0A 00000000 ~~
+Li XO_3.2x2.5
+Cd crystal Epson Toyocom FA-238 and TSX-3225 series
+Sc 0
+AR /53588223
+Op 0 0 0
+T0 -0.1 -2.3 0.8 0.8 0 0.15 N V 21 N "X1"
+T1 0.2 2.3 0.8 0.8 0 0.15 N V 21 N "20Mhz/7X"
+DC -2 1.6 -1.9 1.5 0.1 21
+DS 0 1.5 1.9 1.5 0.1 21
+DS 1.9 1.5 1.9 -1.5 0.1 21
+DS 1.9 -1.5 -1.9 -1.5 0.1 21
+DS -1.9 -1.5 -1.9 1.5 0.1 21
+DS -1.9 1.5 0 1.5 0.1 21
+$PAD
+Sh "1" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po -1.1 0.85
+$EndPAD
+$PAD
+Sh "2" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "CLK"
+Po 1.1 0.85
+$EndPAD
+$PAD
+Sh "4" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "CLK"
+Po -1.1 -0.85
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "GND"
+Po 1.1 -0.85
+$EndPAD
+$SHAPE3D
+Na "smd/smd_crystal&oscillator/crystal_4pins_smd.wrl"
+Sc 0.28 0.28 0.28
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE XO_3.2x2.5
+$MODULE microsd-molex-47571
+Po 0 0 0 15 535C8813 00000000 ~~
+Li microsd-molex-47571
+Cd http://www.molex.com/elqNow/elqRedir.htm?ref=http://www.molex.com/pdm_docs/ps/PS-47309-001.pdf
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 3.1 1.27 1.27 0 0.0889 N V 20 N ">Name"
+T1 0 1.3 0.7 0.7 0 0.0889 N V 20 N "47571"
+DS 6.2 3.8 6.2 4.3 0.15 21
+DS -5.6 3.8 -5.6 4.3 0.15 21
+DS 6.2 3.8 -5.6 3.8 0.15 21
+DS 6.2 0 6.2 3.8 0.15 21
+DS -5.6 0 -5.6 3.8 0.15 21
+DS 0 0 6.2 0 0.15 21
+DS 0 0 -5.6 0 0.15 21
+DS 3.85 -0.125 3.85 -0.625 0.15 21
+DS 2.75 -0.125 2.75 -0.625 0.15 21
+DS 1.65 -0.125 1.65 -0.625 0.15 21
+DS 0.55 -0.125 0.55 -0.625 0.15 21
+DS -0.55 -0.125 -0.55 -0.625 0.15 21
+DS -1.65 -0.125 -1.65 -0.625 0.15 21
+DS -2.75 -0.125 -2.75 -0.625 0.15 21
+DS -3.85 -0.125 -3.85 -0.625 0.15 21
+DS -3.85 -0.125 -3.85 -0.625 0.15 21
+$PAD
+Sh "1" R 1.25 0.6 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.85 -0.625
+$EndPAD
+$PAD
+Sh "2" R 1.25 0.6 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.75 -0.625
+$EndPAD
+$PAD
+Sh "3" R 1.25 0.6 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.65 -0.625
+$EndPAD
+$PAD
+Sh "4" R 1.25 0.6 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.55 -0.625
+$EndPAD
+$PAD
+Sh "5" R 1.25 0.6 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.55 -0.625
+$EndPAD
+$PAD
+Sh "6" R 1.25 0.6 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.65 -0.625
+$EndPAD
+$PAD
+Sh "7" R 1.25 0.6 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.75 -0.625
+$EndPAD
+$PAD
+Sh "8" R 1.25 0.6 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.85 -0.625
+$EndPAD
+$PAD
+Sh "12" R 0.7 1 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.7 2.16
+$EndPAD
+$PAD
+Sh "11" R 1.45 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.475 0.99
+$EndPAD
+$PAD
+Sh "9" R 1.15 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5 0.55
+$EndPAD
+$PAD
+Sh "13" R 0.9 1.4 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.5 3.29
+$EndPAD
+$PAD
+Sh "10" R 1.15 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5 3.14
+$EndPAD
+$EndMODULE microsd-molex-47571
 $EndLIBRARY
