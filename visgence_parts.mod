@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  11/13/2014 9:26:49 PM
+PCBNEW-LibModule-V1  11/15/2014 10:58:19 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -242,7 +242,7 @@ Po 12.7 -0.7874
 $EndPAD
 $EndMODULE EV-T220
 $MODULE G5LA-SPDT
-Po 0 0 0 15 54658465 00000000 ~~
+Po 0 0 0 15 54683CF2 00000000 ~~
 Li G5LA-SPDT
 Sc 0
 AR 
@@ -261,32 +261,32 @@ Ne 0 ""
 Po -8.4 0
 $EndPAD
 $PAD
-Sh "5" C 2.5 2.5 0 0 0
+Sh "2" C 2.5 2.5 0 0 0
 Dr 1.4 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -6.4 6
 $EndPAD
 $PAD
-Sh "2" C 2.5 2.5 0 0 0
+Sh "5" C 2.5 2.5 0 0 0
 Dr 1.4 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -6.4 -6
 $EndPAD
 $PAD
-Sh "4" C 2.5 2.5 0 0 0
-Dr 1.4 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 5.6 6
-$EndPAD
-$PAD
 Sh "3" C 2.5 2.5 0 0 0
 Dr 1.4 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 5.6 -6
+Po 5.8 6
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.8 -6
 $EndPAD
 $EndMODULE G5LA-SPDT
 $MODULE JS202011SCQN
